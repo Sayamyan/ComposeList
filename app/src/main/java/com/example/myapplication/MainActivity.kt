@@ -159,7 +159,7 @@ private fun CardContent(name: String) {
 @Preview(showBackground = true, widthDp = 320)
 @Composable
 fun GreetingPreview() {
-    MyApplicationTheme() {
+    MyApplicationTheme {
         Greetings()
     }
 }
